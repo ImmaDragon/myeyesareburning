@@ -60,11 +60,16 @@ Router.route('/Profile', function(){
 })
 
 Router.route('/Position', function(){
-  this.render('Position');
+  this.render('/Position');
   this.layout('layout');
 })
 
 Router.route('/Music', function(){
   this.render('Music');
+  this.layout('layout');
+})
+
+Router.route('/leaderboard', function(){
+  this.render('leaderboard');
   this.layout('layout');
 })
