@@ -2,3 +2,10 @@
     float: right;
     margin-right: 100px;
 }
+
+
+body{
+    background-image: url("/images/backgroundpics/images (1).jpg");
+    background-color: #cccccc;
+    background-size: 100% 100%;
+}

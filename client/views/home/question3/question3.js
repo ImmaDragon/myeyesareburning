@@ -58,13 +58,61 @@ PlayersList.insert({name:'john connor'},
 
 
 },
-        'click #btn-two': function() {
+    'click #btn-two': function() {
       Router.go('/Position');
+
+
+
     },
         'click #btn-three': function() {
       Router.go('/Music');
-    }
+    },
+    'click #mvp-one': function(){
+        console.log('robert chosen');
 
+        $(document).ready(function(){
+    $("#hide").click(function(){
+        $("p").hide();
+    });
+    $("#show").click(function(){
+        $("p").show();
+    });
+});
+
+    },
+    'click #mvp-two': function(){
+console.log('robert chosen');
+
+$(document).ready(function(){
+    $("#mvp-two").click(function(){
+        $("p1").hide();
+    });
+});
+    },
+    'click #mvp-three': function(){
+console.log('robert chosen');
+
+$(document).ready(function(){
+    $("#hide").click(function(){
+        $("p").hide();
+    });
+    $("#show").click(function(){
+        $("p").show();
+    });
+});
+    },
+    'click #mvp-four': function(){
+    console.log('robert chosen')
+
+    $(document).ready(function(){
+    $("#hide").click(function(){
+        $("p").hide();
+    });
+    $("#show").click(function(){
+        $("p").show();
+    });
+});
+}
 
 
 // if button one is clicked,

@@ -54,10 +54,6 @@ Router.route('/register', function(){
   this.layout(null);
 })
 
-Router.route('/Profile', function(){
-  this.render('Profile');
-  this.layout('layout');
-})
 
 Router.route('/Position', function(){
   this.render('/Position');

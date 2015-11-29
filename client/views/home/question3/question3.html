@@ -1,41 +1,43 @@
-
 <template name="question3">
-<div class="question1">
-<div class="main-container">
-  <div class="game-container">
-    <img src="/images/Drawing.png" class="logo" height="35" width="65">
-    <h1 class="todaysdate">
-    </h1>
-
-    <form class="form-inline">
-        <p>MVP</p>
-        <img src="/images/pic1/5617360.jpeg" class="btn-one">
-        <img src="/images/pic2/Gerald-Riggs-Jr-CROPPED.jpg" class="btn-two">
-        <img src="/images/pic3/rgtydnbsd222j231.jpg" class="btn-three">
-        <br>
-        <p>Favorite</p>
-        <img src="/images/pic5/mike-renaud-copy1.jpg" class="btn-four">
-    </form>
-
-
-
-
-<!-- user clikcs on profile information a scroll pops up -->
-
-    <div class="todaysdate">
-            <button class="next-btn" id="btn-one">Play {{name}}'s song<br><i class="fa fa-angle-right"></i></button>
-	      <button class="next-btn" id="btn-two">Position Information<br><i class="fa fa-angle-right"></i></button>
-	      <button class="next-btn" id="btn-three">Music Information  <i class="fa fa-angle-right"></i></button>
-            <button class="next-btn" id="btn-four">Profile Information<br><i class="fa fa-angle-right"></i></button>
-   </div>
-   <br>
 
     <body>
-    <div id="player"></div>
-</body>
+        <marquee behaviour="scroll" direction="left">Gerald Riggs Jr. rush for 20 years for a TOUCHDOWN!</marquee>
+        <div class="question1">
+            <div class="main-container">
+                <div class="game-container">
+                    <img src="/images/Drawing.png" class="logo" height="35" width="65">
+                    <h1 class="todaysdate">
+    </h1>
+                    <form class="form-inline">
+                        <p>MVP</p>
+                        <img src="/images/pic1/5617360.jpeg" id="mvp-one">
+                        <img src="/images/pic2/Gerald-Riggs-Jr-CROPPED.jpg" id="mvp-two">
+                        <img src="/images/pic3/rgtydnbsd222j231.jpg" id="mvp-three">
+                        <br>
+                        <p>Favorite</p>
+                        <img src="/images/pic5/mike-renaud-copy1.jpg" id="mvp-four">
+                    </form>
+                    <button id="hide">Hide</button>
+                    <button id="show">Show</button>
+                    <p1>If you click on the "Hide" button, I will disappear.</p1>
+                    <!-- user clikcs on profile information a scroll pops up -->
+                    <div class="todaysdate">
+                        <button class="next-btn" id="btn-one">Play {{name}}'s song
+                            <br><i class="fa fa-angle-right"></i></button>
+                        <button class="next-btn" id="btn-two">Position Information
+                            <br><i class="fa fa-angle-right"></i></button>
+                        <button class="next-btn" id="btn-three">Music Information
+                            <br><i class="fa fa-angle-right"></i></button>
+                        <button class="next-btn" id="btn-four">Profile Information
+                            <br><i class="fa fa-angle-right"></i></button>
+                    </div>
+                    <br>
 
-
-  </div>
- </div>
-</div>
+                    <body>
+                        <div id="player"></div>
+                    </body>
+                </div>
+            </div>
+        </div>
+    </body>
 </template>

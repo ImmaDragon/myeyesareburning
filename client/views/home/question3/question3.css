@@ -1,0 +1,14 @@
+body{
+    background-image: url("/images/backgroundpics/6a0115709f071f970b017616a36fd2970c.jpeg");
+    background-size: 100% 100%;
+}
+
+div .game-container {
+    width: 400px;
+    height: 320px;
+}
+
+.game-container img {
+    width: 250%;
+    height: auto;
+}
